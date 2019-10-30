@@ -6,8 +6,8 @@ namespace NullableDirective
     {
         static void Main(string[] args)
         {
-            new Disable().Run();
             new Enable().Run();
+            new Disable().Run();
             new Restore().Run();
         }
     }
